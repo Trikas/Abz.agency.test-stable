@@ -1,0 +1,161 @@
+
+.content-header{
+	background: blue;
+
+}
+.input-group{
+        margin-left: -15px;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 200px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.sidenav a {
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #818181;
+    display: block;
+    padding-top: 0px;
+}
+.wrapp{
+	margin-left:  13em;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+a .jstree-icon 
+{ 
+    background-image: url("../img/pers.png")!important; 
+    background-position: 0!important; 
+    background-size: cover;
+} 
+
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.center-vert{
+    display:flex;
+    align-items:center;
+}
+.point{
+    cursor: pointer;
+}
+.point:hover{
+    color: #007bff;
+}
+.menu-tabl a {
+    color: black !important;
+}
+.menu-tabl{
+    width: 120px;
+}
+/*.modal-dialog {
+    max-width: 800px;
+}*/
+.card-user {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    margin: auto;
+    text-align: center;
+        padding: 10px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+.bor{
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.modal-dialog {
+    max-width: 700px;
+    }
+    .form-wrapp{
+        margin-top:20px;
+    }
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+table th{
+    width: 120px;
+}
+
+input{
+    width: 120px;
+}
+.icon-edit{
+    font-size: 12px;
+
+}
+.error-report{
+    border: 1px solid red;
+   max-width: 100%;
+}
+#image-upload{
+    display:none;
+}
+.fa-download{
+    cursor: pointer;
+}
+.fa-download:hover{
+     color: #007bff;
+}
+.cursor{
+    cursor: pointer;
+}
+.status{
+    display: none;
+    position: absolute;
+    max-width: 666px;
+}
+.delete:hover{
+    color: red;
+}
+#image{
+    height: 300px;
+    background-color: #f1f1f1;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
