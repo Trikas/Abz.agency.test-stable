@@ -9,12 +9,12 @@ class SortData extends Controller
 {
 	function sort($how_sort, $whom_sort){
 
-		if ($how_sort=='desk'){
+		if ($how_sort=='desc'){
 			$pers = DB::table('personal')
 					->orderBy($whom_sort, $how_sort)
 					->paginate(20);		
 		}
-		elseif($how_sort=='ask'){
+		elseif($how_sort=='asc'){
 			$pers = DB::table('personal')
 					->orderBy($whom_sort)
 					->paginate(20);
